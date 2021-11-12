@@ -24,3 +24,11 @@ for n in range(1, int(math.sqrt(N)) + 1):
 
 print("\n".join(map(str, sorted(answer))))
 ```
+
+# x軸で反射(入射角、反射角が同じ)
+
+(Sx, Sy) -> x軸で反射 -> (Gx, Gy) の場合、Sy : Gy に内分する点でx軸で交わる。
+
+Sx -> Gx への変化について Sy : Gy に内分するx座標は (Sx * Gy + Gx * Sy) / (Sy + Gy) で求めることが出来る。
+
+https://atcoder.jp/contests/abc183/editorial/287
