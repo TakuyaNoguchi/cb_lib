@@ -1,3 +1,12 @@
+# 最大値
+
+* int
+  * sys.maxsize
+  * ただしPython3ではint型に上限はないため、sys.maxsizeを超える値を設定可能
+    * https://note.nkmk.me/python-inf-usage/
+* float
+  * float('INF')
+
 # 約数の列挙
 
 Nの約数を列挙する場合、1 ～ sqrt(N)の各値(= n)について、
@@ -32,3 +41,13 @@ print("\n".join(map(str, sorted(answer))))
 Sx -> Gx への変化について Sy : Gy に内分するx座標は (Sx * Gy + Gx * Sy) / (Sy + Gy) で求めることが出来る。
 
 https://atcoder.jp/contests/abc183/editorial/287
+
+# bit探索
+
+2**(N-1)通り、全探索が可能となる。
+
+```python
+for bit in product((True, False), repeat=N - 1):
+```
+
+https://qiita.com/u2dayo/items/90de677aa7a9b21b683b#%E5%AE%9F%E8%A3%85-2
