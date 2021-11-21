@@ -63,3 +63,13 @@ https://www.creativ.xyz/modulo-basic/
 # Pythonで正規表現を使った検索
 
 re.search を使うようにする(re.match は文字列の先頭がマッチするかを調べるため)。
+
+# 三角形の成立条件
+
+長さが a, b, c の辺について、
+
+  |a - c| < c < a + b
+
+が成り立つ場合、三角形が作成できる。
+
+http://physics.thick.jp/Mathematics_A/Section5/5-3.html#:~:text=2%E3%81%A4%E3%81%AE%E8%BE%BA%E3%81%AE%E9%95%B7,%E3%81%AE%E9%95%B7%E3%81%95%E3%82%88%E3%82%8A%E7%9F%AD%E3%81%8F%E3%81%AA%E3%82%8B%E3%80%82
