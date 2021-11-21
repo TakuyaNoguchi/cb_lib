@@ -59,3 +59,7 @@ https://qiita.com/u2dayo/items/90de677aa7a9b21b683b#%E5%AE%9F%E8%A3%85-2
 (a * b) mod M ≡ (a mod M) * (b mod M)
 
 https://www.creativ.xyz/modulo-basic/
+
+# Pythonで正規表現を使った検索
+
+re.search を使うようにする(re.match は文字列の先頭がマッチするかを調べるため)。
