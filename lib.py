@@ -12,7 +12,7 @@ def base10to(x: int, base: int) -> str:
 
 # 最小公倍数
 def lcm(a: int, b: int) -> int:
-    return int(a * b  / math.gcd(a, b))
+    return int(a * b / math.gcd(a, b))
 
 # n以下の素数の一覧
 def make_primes(n: int) -> list:
