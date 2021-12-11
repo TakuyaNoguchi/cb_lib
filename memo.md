@@ -49,6 +49,8 @@ https://atcoder.jp/contests/abc183/editorial/287
 2**(N-1)通り、全探索が可能となる。
 
 ```python
+from itertools import product
+
 for bit in product((True, False), repeat=N - 1):
 ```
 
